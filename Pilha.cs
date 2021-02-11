@@ -13,7 +13,7 @@ namespace dotnet
         {
             if (primeiro == null)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Não tem mais itens na Pilha");
             }
             object resultado = primeiro.item;
             primeiro = primeiro.proximo;
