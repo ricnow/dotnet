@@ -1,6 +1,6 @@
 using System;
 
-namespace EstruturaDoPrograma
+namespace dotnet
 {
     public class Pilha
     {
